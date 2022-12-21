@@ -36,7 +36,7 @@ class _MyAppState extends State<MyApp> {
           alignment: Alignment.center,
           child: Column(
             children: [
-              Text(questions[_quesIndex]),
+              Question(questions[_quesIndex]),
               ElevatedButton(
                 onPressed: answerQuestion,
                 child: Text(
